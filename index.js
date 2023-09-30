@@ -2,7 +2,7 @@ import { Server } from "socket.io"
 
 const io = new Server({
   cors: {
-    origin: "http://localhost:4321",
+    origin: "https://notifications-app-gilt.vercel.app/",
   },
 })
 
